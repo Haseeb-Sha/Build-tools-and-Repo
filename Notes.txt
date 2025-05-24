@@ -34,4 +34,4 @@ we use wepack for that (package.json)
 - add code to you code publish 
 - gradle publish 
 - for maven create settings.xml in .m2 repo and put ur creds
-- 
+
