@@ -21,4 +21,16 @@ we use wepack for that (package.json)
 -npm install
 -npm run build 
 
+#Nexus setup on server
+- install java 17 >
+- cd /opt wget next
+- nexus and sonatype(nexus contains runtime and application, your config for nexus and data)
+- sonatype contains ip adddress config subdirectories log of nexus
+- can be used to backup the data.
 
+# Maven Gradle connection to Nexus
+- create a new user
+- nexus port is 8081
+- add code to you code publish 
+- gradle publish 
+- for maven create settings.xml in .m2 repo and put ur creds
