@@ -1,4 +1,4 @@
-#installing maven java and Gradle and node
+#installing maven java and Gradle and node 
 for Gradle create a folder Gradle and paste the downloaded bin folder
 same for java and maven
 
@@ -32,6 +32,14 @@ we use wepack for that (package.json)
 - create a new user
 - nexus port is 8081
 - add code to you code publish 
-- gradle publish 
+- gradle publish (for pushing)
 - for maven create settings.xml in .m2 repo and put ur creds
+- mvn deploy 
 
+# Nexus API
+ curl -u name:paswd -X GET 'http://ip:port/service/rest/v1/repositories'
+ components?repository=name
+
+# Cleanup Policies
+ - add ckeanup poilcies and in ask add compact blob store
+ -   
